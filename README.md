@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+# 05 Third-Party APIs: Work Day Scheduler
 
-You can use the [editor on GitHub](https://github.com/a-mccaffrey/homework-5/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Link to deployment
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Link](https://a-mccaffrey.github.io/homework-5/)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Description
 
-```markdown
-Syntax highlighted code block
+I had to make an app that would show you the daily schedule that has been saved to your local host. It uses moment.js to get the date and the hours in order to dynamically show how the time changes throughout the day.
 
-# Header 1
-## Header 2
-### Header 3
+## Assigment Parameters
 
-- Bulleted
-- List
+Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-1. Numbered
-2. List
+You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-**Bold** and _Italic_ and `Code` text
+## Screenshot
 
-[Link](url) and ![Image](src)
+
+## User Story
+
+```
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Acceptance Criteria
 
-### Jekyll Themes
+```
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/a-mccaffrey/homework-5/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The following animation demonstrates the application functionality:
 
-### Support or Contact
+![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Review
+
+You are required to submit the following for review:
+
+* The URL of the deployed application.
+
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
